@@ -1,0 +1,45 @@
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Large ML artifacts (download/train locally)
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.npy
+
+# Datasets (too large for GitHub)
+dataset/
+
+# Generated outputs
+outputs/
+temp_test_acne/
+temp_test_masks/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build / temp PDF merge files
+docs/iqac_full.pdf
+docs/iqac_front_matter.pdf
+docs/report_body.pdf
+docs/_merged_temp.pdf
+docs/_final_staged.pdf
+
+# Frontend build (rebuild locally)
+beautifyai modified/
+
+# Misc temp scripts
+inspect_docx.py
+inspect_docx2.py
+preview_iqac_pages.py
+verify_merged.py

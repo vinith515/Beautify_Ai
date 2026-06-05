@@ -1,0 +1,32 @@
+# ============================================================
+# requirements.txt — Acne Removal Pipeline
+# ============================================================
+# Local (RTX 3050 4GB):
+#   pip install -r requirements.txt
+#
+# Google Colab (StarGAN training):
+#   !pip install -r requirements.txt
+#   !pip install gfpgan basicsr facexlib realesrgan
+# ============================================================
+
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Visualisation (training plots)
+matplotlib>=3.7.0
+
+# ── Optional ────────────────────────────────────────────────
+# Face recognition (identity preservation)
+# pip install facenet-pytorch
+#
+# Face detection (RetinaFace)
+# pip install pytorch-retinaface
+#
+# Face enhancement
+# pip install gfpgan basicsr facexlib realesrgan
